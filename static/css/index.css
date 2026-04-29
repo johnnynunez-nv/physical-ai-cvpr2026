@@ -319,12 +319,13 @@ body {
 
 .schedule-time {
   flex-shrink: 0;
-  width: 72px;
+  width: 100px;
   font-size: 0.9rem;
   font-weight: 700;
   color: var(--nvidia-green-dark);
   padding-top: 2px;
   text-align: right;
+  white-space: nowrap;
 }
 
 .schedule-content {
