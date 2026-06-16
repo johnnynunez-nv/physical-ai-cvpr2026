@@ -57,6 +57,10 @@ body {
 }
 
 .nav-badge {
+  display: inline-flex;
+  align-items: center;
+  align-self: center;
+  margin-left: 4px;
   background: var(--nvidia-green);
   color: white;
   font-size: 0.7rem;
@@ -64,6 +68,13 @@ body {
   padding: 2px 8px;
   border-radius: 20px;
   letter-spacing: 0.03em;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.nav-badge:hover {
+  background: var(--nvidia-green-dark);
+  color: white;
 }
 
 .navbar-item {
@@ -125,6 +136,14 @@ body {
   font-weight: 500;
   margin-bottom: 1.5rem;
   border: 1px solid rgba(118, 185, 0, 0.2);
+  text-decoration: none;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.hero-chip:hover {
+  background: rgba(118, 185, 0, 0.25);
+  border-color: rgba(118, 185, 0, 0.4);
+  color: var(--nvidia-green-light);
 }
 
 .hero-title {
